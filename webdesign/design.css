@@ -1,0 +1,293 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #eaeaea;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: white;
+    width: 880px;
+    margin: auto;
+}
+
+.header {
+    padding: 2px;
+}
+
+.artikel {
+    padding: 10px;
+    float: none;
+    margin-left: 15px;
+    line-height: 30px;
+}
+
+.gambar img {
+    border: 1px solid grey;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.judul {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.gambar p {
+    margin-left: 15px;
+}
+
+.gambar a {
+    text-decoration: none;
+    color: grey;
+}
+
+.pendiriapple img {
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 472px;
+}
+
+.pendiriapple h2 {
+    margin-left: 15px;
+    margin-top: 16px;
+}
+
+.pendiriapple2 img {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.pendiriapple2 h2 {
+    margin-left: 15px;
+    margin-top: 16px;
+}
+
+.pendiriapple3 img {
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 472px;
+}
+
+.pendiriapple3 h2 {
+    margin-left: 15px;
+    margin-top: 16px;
+}
+
+.gambar1 img {
+    margin-bottom: 120px;
+    margin-top: 120px;
+    margin-left: 15px;
+}
+
+.judulhalaman h1 {
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+.hakcipta {
+    text-align: center;
+    margin-top: 35px;
+    padding-bottom: 30px;
+}
+
+
+/*Ini untuk beranda web*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #eaeaea;
+}
+
+.beranda {
+    background-color: white;
+    width: 880px;
+    margin: auto;
+}
+
+
+.beranda a {
+    text-decoration: none;
+}
+
+.beranda ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+
+.header1 {
+    padding: 20px;
+}
+
+.header1 .judul1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.gambar1 img {
+    width: 500px;
+}
+
+.artikel1 {
+    margin-left: 15px;
+}
+
+.artikel1 p {
+    margin-top: 20px;
+    margin-bottom: 200px;
+    line-height: 30px;
+}
+
+[type="submit"] {
+    background-color: red;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid grey;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    border-radius: 40px;
+    font-size: 30px;
+}
+
+[type="submit"]:hover {
+    background-color: rgb(255, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.header1 ul li a {
+    color: grey;
+    font-size: 27px;
+    padding: 4px;
+}
+
+.header1 ul li a:hover {
+    background-color: rgb(128, 128, 128, 0.3);
+    /* padding: 4px; */
+    color: white;
+    border-radius: 5px;
+}
+
+.header1 ul li {
+    margin-top: 40px;
+}
+
+
+
+
+/* Gambar welcome */
+
+.gambar img {
+    border: none;
+    margin-top: 200px;
+}
+
+
+
+/* Gambar potongan grafic*/
+
+body {
+    background-color: white;
+}
+
+
+.hero {
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.hero1 {
+    margin-left: 20px;
+}
+
+.g1 {
+    margin-left: 10px;
+    margin-top: 100px;
+    border: 1px solid black;
+}
+
+.g2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.g3 {
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.g4 {
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+
+.g5 {
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.g6 {
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+
+/* Logo hak cipta dan media sosial */
+
+.menubawah {
+    width: 100%;
+    background-color: rgb(39, 38, 38);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.bglogo ul {
+    list-style: none;
+    line-height: 40px;
+}
+
+.bglogo h4 {
+    margin-left: 10px;
+    color: #eaeaea;
+}
+
+.bglogo a {
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+    margin-left: 10px;
+}
+
+
+/* Bagian menu tutorial */
+
+.bgartikel h4 {
+    margin-left: 10px;
+    color: #eaeaea;
+}
+
+.bgartikel a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgb(228, 228, 228);
+}
+
+.bgartikel ul {
+    list-style: none;
+    line-height: 40px;
+}

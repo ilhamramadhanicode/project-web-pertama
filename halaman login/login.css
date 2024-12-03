@@ -1,0 +1,185 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* judul login */
+.judul-log {
+    padding: 9px;
+    box-sizing: border-box;
+    margin-left: 70px;
+    position: relative;
+    top: 7px;
+}
+
+
+/* untuk bungkus */
+.item-bg {
+    background-color: white;
+    height: 320px;
+    width: 297px;
+    margin-left: 880px;
+    box-shadow: 2px 2px 33px 2px rgb(228, 228, 228);
+    border-radius: 10px;
+    position: relative;
+    bottom: 100px;
+}
+
+/* untuk halaman desain email atau nama pengguna */
+.container-login [type="email"] {
+    outline: none;
+    color: grey;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 240px;
+    border: 1px solid rgb(189, 251, 231);
+    border-radius: 5px;
+    margin-left: 28px;
+    margin-bottom: 1px;
+}
+
+/* untuk halaman desain password */
+.container-login [type="password"] {
+    outline: none;
+    color: grey;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 240px;
+    border: 1px solid rgb(189, 251, 231);
+    border-radius: 5px;
+    margin-left: 28px;
+    margin-bottom: 2px;
+}
+
+/* untuk tombol  */
+
+.container-login [type="submit"] {
+    background-color: rgb(62, 113, 223);
+    width: 240px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 28px;
+    margin-bottom: 45px;
+}
+
+
+/* untuk tombol bayang */
+.container-login [type="submit"]:hover {
+    background-color: rgb(81, 123, 215);
+}
+
+/* untuk link 1 */
+.link1 {
+    margin-left: 80px;
+}
+
+.container-login .link1:hover {
+    color: blue;
+}
+
+/* untuk search design */
+
+/* .search-bg {
+    background-color: white;
+    width: 400px;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 30%;
+    box-shadow: 2px 2px 33px 2px rgb(228, 228, 228);
+}
+
+.search-box {
+    border: none;
+    margin-left: 18px;
+    margin-top: 5px;
+    outline: none;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 330px;
+    height: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    background: none;
+}
+
+.search-bg i {
+    cursor: pointer;
+}
+ */
+
+
+
+/* text pertama */
+
+.item-text {
+    margin-top: 130px;
+    margin-left: 40px;
+    color: gray;
+}
+
+
+/* untuk di span */
+
+.judul-text {
+    margin-left: 100px;
+    margin-top: 400px;
+}
+
+
+
+
+/* text kedua */
+
+.text-first {
+    margin-top: 4px;
+    margin-left: 40px;
+    color: gray;
+}
+
+
+/* untuk di span */
+
+.text-i {
+    margin-left: 70px;
+}
+
+
+
+
+
+/* gambar */
+
+.item-img img {
+    margin-left: 150px;
+}
+
+
+/* untuk mobile */
+
+@media screen and (max-width: 600px) {
+    .item-bg {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 400px;
+    }
+
+    .item-img {
+        display: none;
+    }
+
+    .item-text {
+        display: none;
+    }
+
+    .logo-web h1 {
+        margin-left: 160px;
+    }
+}
